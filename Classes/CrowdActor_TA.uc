@@ -7,3 +7,19 @@
  *******************************************************************************/
 class CrowdActor_TA extends Actor
     placeable;
+
+//var() AkSoundCue CrowdSound;
+var() CrowdActorSettings_TA Settings;
+var transient GameEvent_Soccar_TA GameEvent;
+var transient float TargetIdleNoise;
+var transient float TargetIdleNoiseRate;
+var transient float CurrentIdleNoise;
+var transient float ModifiedNoise;
+var transient float CurrentNoise;
+//var transient array<CrowdNoiseModifierInstance> NoiseModifiers;
+//var transient CrowdNoiseModifierInstance TimeAlmostOutNoiseInstance;
+var transient float CurrentBallGoalDistanceNoise;
+//var repnotify transient AkSoundCue ReplicatedOneShotSound;
+var repnotify transient int ReplicatedCountDownNumber;
+var transient float LastBallHitNoiseTime;
+var transient int LastBallHitNoiseLevel;

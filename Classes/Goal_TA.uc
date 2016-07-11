@@ -5,8 +5,18 @@
  *
  * All rights belong to their respective owners.
  *******************************************************************************/
-class Goal_TA extends ActorComponent_X;
+class Goal_TA extends ActorComponent_X
+native;
 
 var() const Actor GoalOrientation;
 
 var() byte TeamNum;
+
+var() FXActor_X ScoreFX;
+
+var privatewrite transient Vector Location;
+var privatewrite transient Vector Direction;
+var privatewrite transient Rotator Rotation;
+var privatewrite transient Vector LocalMin;
+var privatewrite transient Vector LocalMax;
+var privatewrite transient Vector LocalExtent;
