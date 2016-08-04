@@ -8,8 +8,8 @@
 class CrowdManager_TA extends Actor
     placeable;
 
-var() array<CrowdActor_TA> CrowdActors;
-var() CrowdActorSettings_TA Settings;
+var() editinline array<CrowdActor_TA> CrowdActors;
+var() editinline CrowdActorSettings_TA Settings;
 var private transient bool bInitialized;
 var private transient array<CrowdActor_TA> RandomChantCrowdActors;
 //var repnotify transient AkSoundCue ReplicatedGlobalOneShotSound;

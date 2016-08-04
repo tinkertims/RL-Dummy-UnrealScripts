@@ -6,13 +6,12 @@
  * All rights belong to their respective owners.
  *******************************************************************************/
 class Goal_TA extends ActorComponent_X
+    EditInlineNew
 native;
 
-var() const Actor GoalOrientation;
+var() Actor GoalOrientation;
 
 var() byte TeamNum;
-
-var() FXActor_X ScoreFX;
 
 var privatewrite transient Vector Location;
 var privatewrite transient Vector Direction;

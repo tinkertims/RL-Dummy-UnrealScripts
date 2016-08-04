@@ -9,4 +9,4 @@ class VehiclePickup_Boost_TA extends VehiclePickup_TA
     placeable;
 
 var() float BoostAmount;
-var() float RespawnDelay;
+var() editinline VehiclePickup_BoostModifier_TA Modifier;

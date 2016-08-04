@@ -7,7 +7,7 @@
  *******************************************************************************/
 class GameEvent_Soccar_TA extends GameEvent_Team_TA
     collapsecategories
-    notplaceable;
+    placeable;
 
 /** For comparing different car settings */
 var() Car_TA TestCarArchetype;

@@ -9,7 +9,7 @@ class CrowdActor_TA extends Actor
     placeable;
 
 //var() AkSoundCue CrowdSound;
-var() CrowdActorSettings_TA Settings;
+var() editinline CrowdActorSettings_TA Settings;
 var transient GameEvent_Soccar_TA GameEvent;
 var transient float TargetIdleNoise;
 var transient float TargetIdleNoiseRate;

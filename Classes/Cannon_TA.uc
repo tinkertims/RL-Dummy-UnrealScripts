@@ -7,3 +7,29 @@
  *******************************************************************************/
 class Cannon_TA extends Actor
     placeable;
+
+
+var export editinline SkeletalMeshComponent Mesh;
+var AnimTree CannonAnimTree;
+var AnimSet CannonAnimSet;
+var AnimNodeSlot FullBodyAnimSlot;
+var SkelControlSingleBone PitchControl;
+var ParticleSystem EngineThrusterParticle;
+var AkSoundCue CannonFireSound;
+
+
+
+function SetPitch(float Pitch)
+{
+   
+}
+
+function PlayFullBodyAnim(name AnimName, optional float Rate, optional float BlendIn, optional float BlendOut, optional bool bLoop)
+{
+    //return;    
+}
+
+function Fire()
+{
+
+}

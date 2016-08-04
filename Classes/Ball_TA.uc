@@ -7,3 +7,22 @@
  *******************************************************************************/
 class Ball_TA extends RBActor_TA;
 
+
+/** visual mesh */
+var() export editinline StaticMeshComponent StaticMesh;
+/** FX to replace the ball with when the game ends */
+//var() FXActor_X EndOfGameFXArchetype;
+/** explosion to spawn */
+//var() Explosion_X ExplosionArchetype;
+//var() Explosion_X NoGoalExplosionArchetype;
+//var export editinline BallCamTarget_TA BallCamTarget;
+var bool bNextCamTargetOnExplode;
+var transient bool bNotifyGroundHit;
+var privatewrite repnotify transient bool bEndOfGameHidden;
+var const transient bool bPredictionOnGround;
+var transient float Radius;
+//var transient array<BallHitInfo> Touches;
+var transient float LastCalculateCarHit;
+var transient Vector InitialLocation;
+var transient Rotator InitialRotation;
+var transient float LastHitWorldTime;

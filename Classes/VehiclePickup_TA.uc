@@ -10,3 +10,15 @@ class VehiclePickup_TA extends Actor
     native
     nativereplication
     notplaceable;
+
+var() float RespawnDelay;
+var() FXActor_X FXActorArchetype;
+var() duplicatetransient editconst FXActor_X FXActor;
+var FXActorEvent_X PickedUpEvent;
+var FXActorEvent_X LocalPickedUpEvent;
+var export editinline CylinderComponent CylinderComponent;
+//var privatewrite repnotify transient PickupData ReplicatedPickupData;
+var privatewrite transient bool bPickedUp;
+var privatewrite bool bNetRelevant;
+//var delegate<EventSpawned> __EventSpawned__Delegate;
+//var delegate<EventPickedUp> __EventPickedUp__Delegate;

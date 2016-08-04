@@ -6,6 +6,7 @@
  * All rights belong to their respective owners.
  *******************************************************************************/
 class CrowdActorSettings_TA extends Object
+editinlinenew
     native;
 
 /** Rate at which NoiseLevel rises to TargetNoiseLevel */

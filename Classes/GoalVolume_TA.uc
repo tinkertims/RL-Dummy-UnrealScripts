@@ -8,4 +8,4 @@
 class GoalVolume_TA extends Volume
 placeable;
 
-var() export editinline Goal_TA Goal;
+var() editinline Goal_TA Goal;
